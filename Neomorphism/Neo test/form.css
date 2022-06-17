@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+body .container {
+  height: auto;
+  width: 400px;
+  min-height: 60vh;
+  background-color: #ffffff73;
+  margin-left: 399px;
+  margin-top: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 70%;
+  -webkit-box-shadow: 8px 8px 10px grey, -8px -8px 10px grey;
+          box-shadow: 8px 8px 10px grey, -8px -8px 10px grey;
+}
+
+body .container .login {
+  font-size: 30px;
+  color: blue;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body .container form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+body .container form .user {
+  margin: 10px;
+}
+
+body .container form .user input {
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  width: 90%;
+  background-color: aquamarine;
+  -webkit-box-shadow: inset 2px 2px 5px #d1aed1, inset -2px -2px 5px #fff;
+          box-shadow: inset 2px 2px 5px #d1aed1, inset -2px -2px 5px #fff;
+  border: none;
+  outline: none;
+}
+
+body .container form button {
+  padding: 0.1rem;
+  background-color: #000000;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 105px;
+  border-radius: 20px;
+}
+
+body .container form .new {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 19px;
+}
+
+body .container form .new span :hover {
+  font-size: 20px;
+  color: black;
+}
+/*# sourceMappingURL=form.css.map */

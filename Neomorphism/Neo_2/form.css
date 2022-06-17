@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-color: #dde1e7;
+}
+
+body .container {
+  width: 300px;
+  height: auto;
+  min-height: 200px;
+  background-color: #dde1e7;
+  -webkit-box-shadow: -4px -4px 7px #fffdfdb7, 3px 3px 5px rgba(94, 104, 121, 0.288);
+          box-shadow: -4px -4px 7px #fffdfdb7, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  margin-top: 10%;
+  margin-left: 30%;
+  border-radius: 6%;
+  padding: 45px 35px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container img {
+  height: 90px;
+  width: 90px;
+  margin-top: -100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 35%;
+  -webkit-box-shadow: 0px 0px 2px #6b6b6a, 0px 0px 0px 5px #ecf0f3, 5px 5px 15px #a7aaaf, -8px -8px 15px #ffffff;
+          box-shadow: 0px 0px 2px #6b6b6a, 0px 0px 0px 5px #ecf0f3, 5px 5px 15px #a7aaaf, -8px -8px 15px #ffffff;
+}
+
+body .container .text {
+  font-size: 30px;
+  color: blue;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+body .container form {
+  margin-top: 40px;
+}
+
+body .container form .field {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container form .field .fas {
+  height: 50px;
+  width: 60px;
+  color: #868686;
+  font-size: 20px;
+  line-height: 50px;
+  border: none;
+  padding: 0 15px;
+  -webkit-box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+          box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+  text-align: center;
+}
+
+body .container form .field input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  color: #a82a2a;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background: #dde1e7;
+  -webkit-box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+          box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+
+body .container form button {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background: #dde1e7;
+  -webkit-box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+          box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+  color: #363837;
+  margin-top: 40px;
+  border-radius: 5px !important;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-box-shadow: -4px -4px 7px #fffdfdb7, 3px 3px 5px rgba(94, 104, 121, 0.288);
+          box-shadow: -4px -4px 7px #fffdfdb7, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+body .container form button:hover {
+  color: #0dafbb;
+  -webkit-box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+          box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+
+body .container form .link {
+  margin-top: 35px;
+  color: #000000;
+  text-align: center;
+}
+
+body .container form .link a {
+  color: #08adef;
+  text-decoration: none;
+}
+
+body .container form .link a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=form.css.map */
